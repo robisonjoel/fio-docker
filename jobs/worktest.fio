@@ -1,0 +1,12 @@
+[global]
+ioengine=libaio
+iodepth=32
+direct=1
+invalidate=1
+runtime=600
+size=20g
+
+[rand-write]
+bs=4k
+rw=randwrite
+stonewall
